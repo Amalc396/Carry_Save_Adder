@@ -1,4 +1,4 @@
-# ➕ Carry Save Adder (CSA) – Verilog Implementation
+#  Carry Save Adder (CSA) – Verilog Implementation
 
 This project demonstrates a **4-bit Carry Save Adder** in Verilog, along with a comprehensive testbench that verifies its functionality across a range of inputs.
 
