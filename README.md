@@ -42,16 +42,3 @@ Make sure you have [Icarus Verilog](http://iverilog.icarus.com/) installed.
 ```bash
 iverilog -o csavea_tb csavea.v tb_csavea.v
 vvp csavea_tb
-
-### 📊 View Waveform:
-
-You can view the waveform using GTKWave
-```bash
-gtkwave csavea_wave.vcd
-
-### ✅ Sample Output:
-```go
-Time=10 | x=0 | y=0 | z=0 | s=00000 | cout=0 | error=0
-Time=20 | x=0 | y=0 | z=1 | s=00001 | cout=0 | error=0
-...
-Simulation finished. Total errors: 0
